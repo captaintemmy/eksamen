@@ -36,7 +36,6 @@ export default function LanSignup() {
 
   return (
     <main className="relative min-h-screen flex flex-col items-center px-4 overflow-hidden bg-black">
-      {/* Particle Background */}
       <div className="absolute inset-0 -z-10">
         <Particles
           particleCount={180}
@@ -53,7 +52,6 @@ export default function LanSignup() {
 
 //NAVBAR
       <nav className="w-full max-w-6xl mx-auto flex items-center bg-transparent justify-between py-4 px-2 mb-12 z-10">
-
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 bg-black rounded-lg flex items-center justify-center shadow">
             <Image
@@ -78,7 +76,7 @@ export default function LanSignup() {
           </button>
         </div>
       </nav>
-
+//main
       <div className="w-full max-w-xl bg-gray-900/90 rounded-2xl shadow-2xl border border-gray-800 p-8 z-10 backdrop-blur-md">
         <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Påmelding til LAN</h1>
         <p className="text-gray-400 mb-8">Fyll ut skjemaet for å melde deg på spillkonkurranser.</p>
@@ -131,7 +129,7 @@ export default function LanSignup() {
         </form>
       </div>
       <footer className="mt-12 text-gray-600 text-sm z-10">
-        &copy; {new Date().getFullYear()} LAN Påmelding
+        &copy; {new Date().getFullYear()} LAN NAVN
       </footer>
     </main>
   );
