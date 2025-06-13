@@ -1,2 +1,3 @@
 # eksamen
-&lt;h1> eksamen &lt;/h1>
+# eksamen
+test test Jeg har nå lagd en pull request
